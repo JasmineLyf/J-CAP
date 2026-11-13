@@ -1,0 +1,44 @@
+{
+  "method": "J_CAP",
+  "version": "frozen-main-only",
+  "census": "child_count + adult_count",
+  "tau": [
+    5.5714287757873535,
+    5.714285850524902,
+    4.599999904632568,
+    5.0
+  ],
+  "tau_historical_quantile": 0.9,
+  "tau_fit_last_day": 213,
+  "K": [
+    2,
+    4,
+    6,
+    8
+  ],
+  "weight_H": 10,
+  "weight_P": 20,
+  "success_tolerance": 1e-07,
+  "history_window_days": 56,
+  "history_change_first_day": 246,
+  "minimum_history": 7,
+  "scenario_repeats": 16,
+  "development_first_day": 260,
+  "development_last_day": 303,
+  "evaluation_first_day": 305,
+  "evaluation_last_day": 394,
+  "expected_days": 87,
+  "expected_cases": 348,
+  "expected_successes": 59,
+  "internal_reference": {
+    "alpha": 1.0,
+    "rho": 0.5168792497134739,
+    "qscale": 14.397727272727273,
+    "stress_threshold": 116.0,
+    "transfer_cost": 2.0,
+    "stress_discount": 0.02,
+    "minimum_efficiency": 0.94
+  },
+  "tuning": "Frozen parameters; no evaluation-period fitting or model selection in this release",
+  "exploratory_evaluation": true
+}

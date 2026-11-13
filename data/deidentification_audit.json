@@ -1,0 +1,40 @@
+{
+  "data_level": "aggregate ward-day only",
+  "rows": 1298,
+  "wards": 4,
+  "calendar_days": 395,
+  "fields": [
+    "day_index",
+    "ward",
+    "child_count",
+    "adult_count",
+    "nurse_count",
+    "analysis_beds",
+    "active"
+  ],
+  "ward_ids": "W1-W4 pseudonyms; no original mapping included",
+  "time": "relative consecutive day index; no original calendar dates or mapping included",
+  "values": "No fabricated values, count perturbation, row deletion for performance, or missing-to-zero filling",
+  "removed": [
+    "patient-level files",
+    "names",
+    "patient/visit identifiers",
+    "source worksheet names",
+    "original ward labels",
+    "absolute paths",
+    "original calendar dates",
+    "free-text provenance"
+  ],
+  "missing_by_field": {
+    "day_index": 0,
+    "ward": 0,
+    "child_count": 6,
+    "adult_count": 12,
+    "nurse_count": 17,
+    "analysis_beds": 1,
+    "active": 0
+  },
+  "formal_anonymity_guarantee": false,
+  "source_unchanged": true,
+  "input_digest_sha256": "798afb0aa3c88f846cd63e57444495068780323528a446e49fba4ce04984c4f7"
+}
